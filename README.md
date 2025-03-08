@@ -62,6 +62,12 @@ cd frontend
 npm install
 npm run dev
 ```
+
+### Future developments
+- Adding space for commercial advertisements
+- Integrating an AI chatbot for Q & A
+
+
 This was developed under the module EE5209 Web Application Development.
 
 
