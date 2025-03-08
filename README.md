@@ -17,7 +17,7 @@
 - **Secure Login & Registration**
 - **Add Movie Reviews**
 - **Check Movie Comments**
-- **Filter & Sort Movies**(can filter movies based on genre or ratings)
+- **Filter & Sort Movies** (can filter movies based on genre or ratings)
 
 ### Dashboard
 - **Display Total Number of Users & Comments**
