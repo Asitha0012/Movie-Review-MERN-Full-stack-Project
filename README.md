@@ -29,29 +29,7 @@
 - **Multer** (for file uploads)
 - **Nodemon & Concurrently** (for development workflow)
 
-## Installation & Setup
-### Prerequisites
-Ensure you have **Node.js** and **MongoDB** installed on your system.
-
-### Clone the Repository
-```sh
-git clone https://github.com/yourusername/the-movie-lens.git
-cd the-movie-lens
-```
-
-### Backend Setup
-```sh
-cd backend
-npm install
-npm start
-```
-
-### Frontend Setup
-```sh
-cd frontend
-npm install
-npm run dev
-```
+This was developed as a project under the module of EE5209 - Web Application Development.
 
 
 
