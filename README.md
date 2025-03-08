@@ -4,12 +4,24 @@
 **The Movie Lens** is a dynamic movie review web application developed using the **MERN stack**. It provides an interactive platform for users to explore, review, and manage movies with a seamless experience. The application supports both **admin and user logins**, enabling efficient CRUD operations, movie reviews, and dashboard functionalities.
 
 ## Features
-- **User & Admin Authentication** (JWT-based login system)
-- **CRUD Operations** for movie reviews
-- **Interactive Dashboard** for managing content
-- **Secure User Authentication & Authorization**
-- **Modern UI with Tailwind CSS**
-- **Image Uploading & Management**
+### Admin
+- **Secure Login**
+- **Dashboard Access**
+- **Add/Delete Movies**
+- **Add/Delete/Update Genres**
+- **Add/Delete Reviews**
+- **Update Movies**
+- **Manage Movies**
+
+### User
+- **Secure Login & Registration**
+- **Add Movie Reviews**
+- **Check Movie Comments**
+- **Filter & Sort Movies**(can filter movies based on genre or ratings)
+
+### Dashboard
+- **Display Total Number of Users & Comments**
+- **Show Top Movies with Highest Reviews**
 
 ## Tech Stack
 ### Frontend
@@ -29,7 +41,27 @@
 - **Multer** (for file uploads)
 - **Nodemon & Concurrently** (for development workflow)
 
-This was developed as a project under the module of EE5209 - Web Application Development.
+## Installation & Setup
 
+### Clone the Repository
+```sh
+git clone https://github.com/yourusername/the-movie-lens.git
+cd the-movie-lens
+```
+
+### Backend Setup
+```sh
+cd backend
+npm install
+npm start
+```
+
+### Frontend Setup
+```sh
+cd frontend
+npm install
+npm run dev
+```
+This was developed under the module EE5209 Web Application Development.
 
 
